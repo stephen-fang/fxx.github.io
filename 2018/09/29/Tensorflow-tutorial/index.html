@@ -1,7 +1,5 @@
 
 
-  
-
 
 
 
@@ -18,9 +16,11 @@
   
   
   
-    <meta name="description" content="">
+    <meta name="description" content="Just test
+123456L=[1,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1]Result = []for i in range(1,21):	p = round(sum(L[:i])/float(i),3)	r = sum(L[:i])/8.0	Result.append((p,r))
+$$\begin{align}&amp;score(d,Q)=\...">
   
-  <title>Archives [ Hexo ]</title>
+  <title>Tensorflow_tutorial [ Hexo ]</title>
   
   
     <link rel="shortcut icon" href="/favicon.ico">
@@ -39,6 +39,15 @@
 <body>
 <div class="side-navigate hide-area">
   
+  
+    <div class="item next">
+      <a href="/2018/09/29/kkkk/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        kkkk
+      </div>
+    </div>
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -64,7 +73,7 @@
           </li>
         
           
-            <li class="active">
+            <li>
           
             <a href="/archives">Archives</a>
             
@@ -110,174 +119,46 @@
     <div id="content-inner">
       
       
-  <article>
+  <article id="post">
+    <h1>Tensorflow_tutorial</h1>
+    <p class="page-title-sub">
+      <span id = "post-title-date">Created at 2018-09-29</span>
+      
+        <span id = "post-title-updated">Updated at 2018-09-29</span>
+      
+      
+      
+    </p>
     
-
-  <div id="recent-posts">
-    <h1>Archives
-    
-      <span class="posts-count">
-      Total
-      5
-      
-        posts
-      
-      </span>
-    
-    </h1>
-    
-    
-      
-      
-        
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-    
-    
-      
-      
-        
-        <h3 class="archive-year-title">2018
-        
-          <span class="posts-count">
-          Total
-          5
-          
-            posts
-          
-          </span>
-        
-        </h3>
-      
-      <div class="post-title-item">
-  
-  <a href="/2018/09/29/Tensorflow-tutorial/">
-  
-    Tensorflow_tutorial
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-29</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2018/09/29/kkkk/">
-  
-    kkkk
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-29</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2018/09/28/testt/">
-  
-    testt
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-28</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2018/09/26/hello/">
-  
-    hello
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-26</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2018/09/26/hello-world/">
-  
-    Hello World
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-26</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-  </div>
-
+    <p>Just test</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">L=[<span class="number">1</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>]</span><br><span class="line">Result = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>,<span class="number">21</span>):</span><br><span class="line">	p = round(sum(L[:i])/float(i),<span class="number">3</span>)</span><br><span class="line">	r = sum(L[:i])/<span class="number">8.0</span></span><br><span class="line">	Result.append((p,r))</span><br></pre></td></tr></table></figure>
+<p>$$<br>\begin{align<em>}<br>&amp;score(d,Q)=\sum\limits <em>{t\in Q}{idf</em>{t}\cdot\frac{3tf_{t,d}}{2+tf_{t,d}}}\<br>&amp;score(d)=6f(tf_{1})+2f(tf_{2})+f(tf_{3})\<br>&amp;,where\ f(tf)=\frac{3tf_{t,d}}{2+tf_{t,d}}<br>\end{align</em>}<br>$$</p>
 
   </article>
+  <div class="random-toc-area">
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">Show TOC</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">Hide TOC</button>
+  <div class="random-toc">
+    <h2>Table of Content</h2>
+    
+  </div>
+</div>
+
+  
+<nav id="pagination">
+  
+
+  
+
+  
+    <a href="/2018/09/29/kkkk/" class="next">Next post kkkk &rarr;</a>
+  
+</nav>
+
+  <!-- JiaThis Button BEGIN -->
+
+<!-- JiaThis Button END -->
+
 
       
       
@@ -403,6 +284,8 @@ var unsplashConfig = {"gravity":"north"};
 var turnoffBackgroundImage = false;
 
 
+
+  turnoffBackgroundImage = true;
 
 
 var backgroundColor = "34495E";
