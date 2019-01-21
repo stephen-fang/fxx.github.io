@@ -56,7 +56,7 @@
 	};
  
 	// Object containing all website meta info
-	var websiteMeta = {"aee4b8399c1ae655911771ca7a56cd4f-3.html":"njnknkj","archive-january-2019.html":"Archives for January 2019","archive-july-2018.html":"Archives for July 2018","b49f7679eed2e8f01cdc308cae49accf-2.html":"sadasd\n### dsfsdf\njjjjj"};
+	var websiteMeta = {"b49f7679eed2e8f01cdc308cae49accf-2.html":"sadasd\n### dsfsdf\njjjjj","archive-july-2018.html":"Archives for July 2018","1a172a0fbed4229a5365648a774f5ed7-4.html":"3. $\\lambda,p,\\tau$ can be treated as constants, then for $r_{i}$,\n   $$\n   \\begin{align*}\n   f(r_{i}|\\lambda,p,\\tau)&\\propto e^{-\\lambda r_{i}}\\cdot ","archive-january-2019.html":"Archives for January 2019","aee4b8399c1ae655911771ca7a56cd4f-3.html":"njnknkj"};
  
 	// pageId must match the key in websiteMeta object
 	var url = window.location.pathname;
