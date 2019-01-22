@@ -56,7 +56,7 @@
 	};
  
 	// Object containing all website meta info
-	var websiteMeta = {"b49f7679eed2e8f01cdc308cae49accf-2.html":"sadasd\n### dsfsdf\njjjjj","archive-july-2018.html":"Archives for July 2018"};
+	var websiteMeta = {"9cb3249ab456789134ae6aedb84c7c53-5.html":"(No title)","a30339575ccac0b2df84fc7999bd2320-6.html":"￼","archive-july-2018.html":"Archives for July 2018","archive-january-2019.html":"Archives for January 2019","b49f7679eed2e8f01cdc308cae49accf-2.html":"sadasd\n### dsfsdf\njjjjjbvbnvnbvbnv "};
  
 	// pageId must match the key in websiteMeta object
 	var url = window.location.pathname;
