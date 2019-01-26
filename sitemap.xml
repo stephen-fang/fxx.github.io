@@ -2,71 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://fxx.me/index.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/blog/index.html</loc>
-		<lastmod>2019-01-22</lastmod>
-	</url>
-	<url>
-		<loc>https://fxx.me/blog/files/a30339575ccac0b2df84fc7999bd2320-6.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/blog/files/9cb3249ab456789134ae6aedb84c7c53-5.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/blog/files/b49f7679eed2e8f01cdc308cae49accf-2.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/blog/files/archive-january-2019.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/blog/files/archive-july-2018.html</loc>
-		<lastmod>2019-01-22</lastmod>
+	</url>
+	<url>
+		<loc>https://fxx.me/markdown/index.html</loc>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/index.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/files/page2-1000-full.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/files/page2-1001-full.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/files/page2-1002-full.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/files/page2-1003-full.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/files/page2-1004-full.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/files/page2-1005-full.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/files/page2-1006-full.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/files/page2-1007-full.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/files/page2-1008-full.html</loc>
-		<lastmod>2019-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://fxx.me/photos/photos-3/index.html</loc>
