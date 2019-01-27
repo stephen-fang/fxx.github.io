@@ -210,11 +210,16 @@ clear: both;
 
 .icon.camera{
 	background: transparent url(img/camera.png) no-repeat;
+/*	background-image: url(img/camera.png);*/
+/*	background-image: url(https://ws4.sinaimg.cn/large/006tNc79ly1fzljighp4xj300o00odfl.jpg);*/
+/*	background: url(img/camera.png);*/
 }
 
 .icon.camera.webkit{
 	background-image: none;
-	-webkit-mask-box-image: url(img/camera_mask.png);
+/*	-webkit-mask-box-image: url(img/camera_mask.png);*/
+	-webkit-mask-box-image: url(img/camera.png);
+
 }
 
 .icon.monitor{
@@ -252,6 +257,16 @@ clear: both;
 .icon.heart.webkit{
 	background-image: none;
 	-webkit-mask-box-image: url(img/heart_mask.png);
+}
+
+
+.icon.link{
+	background: transparent url(img/link.png) no-repeat;
+}
+
+.icon.link.webkit{
+	background-image: none;
+	-webkit-mask-box-image: url(img/link.png);
 }
 
 .icon.download{
