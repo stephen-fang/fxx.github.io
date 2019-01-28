@@ -269,6 +269,16 @@ clear: both;
 	-webkit-mask-box-image: url(img/link.png);
 }
 
+
+.icon.mail{
+	background: transparent url(img/mail.png) no-repeat;
+}
+
+.icon.mail.webkit{
+	background-image: none;
+	-webkit-mask-box-image: url(img/mail.png);
+}
+
 .icon.download{
 	background: transparent url(img/download.png) no-repeat;
 }
